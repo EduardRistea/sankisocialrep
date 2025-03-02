@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+.accent {
+    color: #FF6600;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.menu .cta {
+    background: #FF6600;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 500px;
+    opacity: 0.8;
+}
+
+.cta {
+    display: inline-block;
+    background: #FF6600;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 100px 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.services-grid, .work-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service, .work-item {
+    background: #222;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+footer {
+    padding: 20px;
+    background: black;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
